@@ -1,0 +1,8 @@
+@font-face {
+  src: url(../font/IBMPlexMono-Regular.ttf);
+  font-family: "IBMPlexMono-Regular.ttf" ;
+}
+html {
+  font-family: "IBMPlexMono-Regular.ttf",sans-serif ;
+  color: #fff;
+}
