@@ -186,7 +186,7 @@ html {
 
 /* -----------------2 сраница------------ */
 .main__2 {
-margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .main__2-title {
@@ -218,6 +218,59 @@ margin-bottom: 150px;
 .main__2-text-two {
   margin-bottom: 60px;
   width: 778px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+/* --------------3 страница---------------- */
+
+
+.main__3 {}
+
+.container {}
+
+.main__3-title {
+  width: 403px;
+  margin-bottom: 75px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__3-contant {
+  margin-bottom: 74px;
+}
+
+.main__3-img {
+  border-radius: 30px;
+}
+
+.main__3-contant-box {
+  padding: 40px 0 0 40px;
+  height: 283px;
+  background-color: #191C19;
+  border-radius: 30px;
+}
+
+.main__3-text-one {
+  margin-bottom: 15px;
+  color: rgb(23, 202, 23);
+  width: 1048px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
+
+.main__3-text-two {
+width: 749px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28.6px;
