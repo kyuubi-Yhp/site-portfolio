@@ -1,8 +1,88 @@
+/* @font-face {
+  src: url(../font/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  src: url(../font/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  font-family: "IBMPlexMono-Regular.ttf", "IBMPlexMono-Bold.ttf";
+} */
+
 @font-face {
   src: url(../font/IBMPlexMono-Regular.ttf);
-  font-family: "IBMPlexMono-Regular.ttf" ;
+  font-family: "IBMPlexMono-Regular.ttf";
 }
+
 html {
-  font-family: "IBMPlexMono-Regular.ttf",sans-serif ;
+  font-family: "IBMPlexMono-Regular.ttf", sans-serif;
   color: #fff;
+}
+
+.header {
+  position: relative;
+  background-image: url(../img/header-prev-img/Rectangle\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 100%;
+}
+
+.header__box-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 36px 0 0 123px;
+
+  width: 130px;
+  height: 39px;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.header__logo-text {
+  margin-left: -9px;
+
+  font-family: "IBMPlexMono-Bold.ttf", sans-serif;
+  color: rgb(23, 202, 23);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.11em;
+
+}
+
+.header_nav-list {
+  margin: 33px 125px 0 0;
+  display: flex;
+  float: right;
+  gap: 50px;
+}
+
+.header__nav-item {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.header__text-one {
+  position: absolute;
+  margin: 334px 0 0 125px;
+
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.header__text-two {
+  position: absolute;
+  margin: 466px 0 0 119px;
+
+  width: 919px;
+  color: rgb(23, 202, 23);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
