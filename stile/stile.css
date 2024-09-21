@@ -14,6 +14,12 @@ html {
   color: #fff;
 }
 
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+/* --------------------1 страница------------------- */
 .header {
   position: relative;
   background-image: url(../img/header-prev-img/Rectangle\ 1.jpg);
@@ -28,7 +34,7 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin: 36px 0 0 123px;
+  margin: 36px 0 0 0;
 
   width: 130px;
   height: 39px;
@@ -48,7 +54,7 @@ html {
 }
 
 .header_nav-list {
-  margin: 33px 125px 0 0;
+  margin: 33px 0 0 0;
   display: flex;
   float: right;
   gap: 50px;
@@ -64,7 +70,7 @@ html {
 
 .header__text-one {
   position: absolute;
-  margin: 334px 0 0 125px;
+  margin: 334px 0 0 0;
 
   width: 430px;
   font-size: 20px;
@@ -76,7 +82,7 @@ html {
 
 .header__text-two {
   position: absolute;
-  margin: 466px 0 0 119px;
+  margin: 466px 0 0 0;
 
   width: 919px;
   color: rgb(23, 202, 23);
@@ -85,4 +91,22 @@ html {
   line-height: 70px;
   letter-spacing: -0.03em;
   text-align: left;
+}
+
+/* -------------2 страница----------------- */
+
+.main__1 {
+  background-color: black;
+}
+.container {
+}
+.main__1-title {
+}
+.main__1-contant {
+}
+.main__1-contant-item {
+}
+.main__1-text-one {
+}
+.main__1-text-two {
 }
