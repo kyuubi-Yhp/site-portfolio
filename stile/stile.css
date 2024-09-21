@@ -19,7 +19,12 @@ html {
   margin: 0 auto;
 }
 
-/* --------------------1 страница------------------- */
+.main {
+  background-color: black;
+}
+
+
+/* --------------------хедер------------------- */
 .header {
   position: relative;
   background-image: url(../img/header-prev-img/Rectangle\ 1.jpg);
@@ -93,20 +98,130 @@ html {
   text-align: left;
 }
 
-/* -------------2 страница----------------- */
+/* -------------1 страница----------------- */
 
 .main__1 {
-  background-color: black;
+  /* background-color: black; */
+  padding-top: 150px;
+  margin-bottom: 150px;
 }
-.container {
-}
+
 .main__1-title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
 }
-.main__1-contant {
-}
+
 .main__1-contant-item {
+  position: relative;
+  background-image: url(../img/main_1-img/Rectangle\ 6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 550px;
+  border-radius: 35px;
 }
+
+.main__1-contant-item-2 {
+  position: relative;
+  background-image: url(../img/main_1-img/Rectangle\ 7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 550px;
+  border-radius: 35px;
+}
+
+.main__1-contant-item-3 {
+  margin-bottom: 80px;
+  position: relative;
+  background-image: url(../img/main_1-img/Rectangle\ 7\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 550px;
+  border-radius: 35px;
+}
+
 .main__1-text-one {
+  position: absolute;
+  margin: 410px 0 0 50px;
+
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
 }
+
 .main__1-text-two {
+  position: absolute;
+  margin: 461px 0 0 50px;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__1-btn {
+  display: block;
+  width: 582px;
+  height: 153px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 56px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  background-color: rgb(23, 202, 23);
+}
+
+/* -----------------2 сраница------------ */
+.main__2 {
+margin-bottom: 150px;
+}
+
+.main__2-title {
+  margin-bottom: 50px;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__2-img {
+  margin-bottom: 12px;
+  width: 45px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.main__2-text-one {
+  margin-bottom: 15px;
+  color: rgb(23, 202, 23);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__2-text-two {
+  margin-bottom: 60px;
+  width: 778px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
 }
