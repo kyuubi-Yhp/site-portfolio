@@ -10,6 +10,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: "IBMPlexMono-Regular.ttf", sans-serif;
   color: #fff;
 }
@@ -71,6 +72,10 @@ html {
   line-height: 23.4px;
   letter-spacing: -0.03em;
   text-align: left;
+}
+
+.header__nav-item:hover {
+  color: rgb(23, 202, 23);
 }
 
 .header__text-one {
@@ -171,6 +176,7 @@ html {
 
 .main__1-btn {
   display: block;
+  border: 1px solid rgb(23, 202, 23);
   width: 582px;
   height: 153px;
   text-align: center;
@@ -182,6 +188,11 @@ html {
   letter-spacing: -0.03em;
   text-align: center;
   background-color: rgb(23, 202, 23);
+}
+
+.main__1-btn:hover {
+  color: rgb(23, 202, 23);
+  background-color: black;
 }
 
 /* -----------------2 сраница------------ */
@@ -228,9 +239,9 @@ html {
 /* --------------3 страница---------------- */
 
 
-.main__3 {}
-
-.container {}
+.main__3 {
+  margin-bottom: 150px;
+}
 
 .main__3-title {
   width: 403px;
@@ -270,10 +281,85 @@ html {
 }
 
 .main__3-text-two {
-width: 749px;
+  width: 749px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28.6px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+/* --------------4 страница-------------- */
+
+.main__4 {
+  margin-bottom: 150px;
+  position: relative;
+  background-color: #191C19;
+  height: 717px;
+  border-radius: 30px;
+  background-image: url(../img/main__4-img/cuate.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.main__4-title {
+  position: absolute;
+  top: 320px;
+  left: 125px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__4 a {
+  display: block;
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.main__4 a:hover {
+  color: rgb(23, 202, 23);
+}
+
+.main__4-list-link {
+  position: absolute;
+  top: 408px;
+  left: 125px;
+}
+
+
+/* --------------футер ------------------------ */
+
+.footer {
+  padding: 76px 0;
+  border-radius: 30px;
+  background-color: #fff;
+  height: 289px;
+
+}
+
+.footer__text-one {
+  margin-bottom: 66px;
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+
+}
+
+.footer__text-two {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
   letter-spacing: -0.03em;
   text-align: left;
 
