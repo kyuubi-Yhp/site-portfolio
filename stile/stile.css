@@ -36,12 +36,19 @@ body {
   height: 100%;
 }
 
+.menu__top-line {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 1100px;
+}
+
 .header__box-logo {
+  margin: 36px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  margin: 36px 0 0 0;
+
 
   width: 130px;
   height: 39px;
@@ -62,6 +69,7 @@ body {
 .header_nav-list {
   margin: 33px 0 0 0;
   display: flex;
+  align-items: center;
   float: right;
   gap: 50px;
 }
@@ -78,10 +86,12 @@ body {
   color: rgb(23, 202, 23);
 }
 
-.header__text-one {
-  position: absolute;
-  margin: 334px 0 0 0;
 
+.header__text-info {
+  margin: 252px 0 0 0;
+  position: absolute;
+}
+.header__text-one {
   width: 430px;
   font-size: 20px;
   font-weight: 400;
@@ -91,8 +101,7 @@ body {
 }
 
 .header__text-two {
-  position: absolute;
-  margin: 466px 0 0 0;
+  margin: 29px 0 0 0;
 
   width: 919px;
   color: rgb(23, 202, 23);
@@ -118,6 +127,10 @@ body {
   letter-spacing: -0.03em;
   text-align: left;
 }
+.main__1-link {
+  position: relative;
+  height: 550px;
+}
 
 .main__1-contant-item:last-child {
   margin-bottom: 80px;
@@ -125,7 +138,14 @@ body {
 
 .main__1-contant-img {
   border-radius: 35px;
-  height: 550px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.main__1-text-box {
+  position: absolute;
+  width: 100%;
 }
 
 .main__1-text-one {
@@ -182,7 +202,6 @@ body {
   font-weight: 400;
   line-height: 71.5px;
   letter-spacing: -0.03em;
-  text-align: left;
 }
 
 .main__2-contant-item {
@@ -240,9 +259,16 @@ body {
   margin-bottom: 74px;
 }
 
+.main__3-img-box {
+  height: 174px;
+}
+
 .main__3-img {
   border-radius: 30px;
+  object-fit: cover;
+  height: 100%;
   width: 100%;
+
 }
 
 .main__3-contant-box {
@@ -288,7 +314,6 @@ body {
 .main__4-title {
   position: absolute;
   top: 320px;
-  left: 10%;
   font-size: 35px;
   font-weight: 400;
   line-height: 60px;
@@ -297,13 +322,13 @@ body {
 }
 
 .main__4 a {
-  display: block;
   margin-top: 20px;
+
+  display: block;
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
   letter-spacing: -0.03em;
-  text-align: left;
 }
 
 .main__4 a:hover {
@@ -313,7 +338,6 @@ body {
 .main__4-list-link {
   position: absolute;
   top: 408px;
-  left: 10%;
 }
 
 
