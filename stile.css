@@ -1,0 +1,33 @@
+@import "stile/header.css";
+@import "stile/project.css";
+@import "stile/skills.css";
+@import "stile/tasks.css";
+@import "stile/contacts.css";
+@import "stile/footer.css";
+
+/* @font-face {
+  src: url(../font/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+  src: url(../font/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+  font-family: "IBMPlexMono-Regular.ttf", "IBMPlexMono-Bold.ttf";
+} */
+
+@font-face {
+  src: url(../font/IBMPlexMono-Regular.ttf);
+  font-family: "IBMPlexMono-Regular.ttf";
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "IBMPlexMono-Regular.ttf", sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  background-color: black;
+}
