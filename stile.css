@@ -1,5 +1,6 @@
-@import url("stile/header.css");
-@import url("stile/project.css");
+
+@import 'stile/header.css';
+@import 'stile/project.css';
 @import url("stile/skills.css");
 @import url("stile/tasks.css");
 @import url("stile/contacts.css");
