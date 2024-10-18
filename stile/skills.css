@@ -10,8 +10,16 @@
   letter-spacing: -0.03em;
 }
 
+.skills__flexbox {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: row;
+row-gap: 40px;
+}
+
 .skills-contant-item {
-  margin-bottom: 60px;
+  width: 560px;
 }
 
 .skills-img {
@@ -30,14 +38,11 @@
   letter-spacing: -0.03em;
 }
 
-
-.skills-text-one-2 {
-  padding-right: 460px;
+.skills-text-margin {
+  margin-bottom: 60px;
 }
 
 .skills-text-two {
-  /* margin-bottom: 60px; */
-  width: 778px;
   font-size: 22px;
   font-weight: 400;
   line-height: 28.6px;
