@@ -20,8 +20,7 @@
   
   html {
     scroll-behavior: smooth;
-    font-family: "IBMPlexMono-Regular.ttf", sans-serif;
-    color: #fff;
+
   }
   
   .container {
@@ -32,4 +31,6 @@
   
   body {
     background-color: black;
+    font-family: "IBMPlexMono-Regular.ttf", sans-serif;
+    color: #fff;
   }
