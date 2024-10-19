@@ -3,6 +3,7 @@
 }
 
 .skills-title {
+  font-family: "IBMPlexMono-Regular.ttf";
   margin-bottom: 50px;
   font-size: 55px;
   font-weight: 400;
@@ -30,6 +31,7 @@ row-gap: 40px;
 }
 
 .skills-text-one {
+  font-family: "IBMPlexMono-Regular.ttf";
   margin-bottom: 15px;
   color: rgb(23, 202, 23);
   font-size: 35px;
@@ -43,6 +45,7 @@ row-gap: 40px;
 }
 
 .skills-text-two {
+  font-family: "IBMPlexMono-Regular.ttf";
   font-size: 22px;
   font-weight: 400;
   line-height: 28.6px;
