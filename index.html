@@ -4,14 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet"> -->
   <link rel="stylesheet" href="stile/resetstyle.css">
   <link rel="stylesheet" href="stile.css">
-  <!-- <link rel="stylesheet" href="stile/header.css">
-  <link rel="stylesheet" href="stile/project.css">
-  <link rel="stylesheet" href="stile/skills.css">
-  <link rel="stylesheet" href="stile/tasks.css">
-  <link rel="stylesheet" href="stile/contacts.css">
-  <link rel="stylesheet" href="stile/footer.css"> -->
   <title>My portfolio</title>
 </head>
 
@@ -21,7 +20,7 @@
     <div class="container">
       <div class="menu__top-line">
         <div class="header__box-logo">
-          <p class="header__logo-text">ORLOV</p>
+          <p class="header__logo-text">Kotov</p>
         </div>
 
         <nav>
@@ -32,15 +31,44 @@
             <li class="header__nav-item"><a href="#contact">контакты</a></li>
           </ul>
         </nav>
+        <div class="burger__btn js-burger-btn"></div>
       </div>
+      
 
       <div class="header__text-info">
         <p class="header__text-one">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж
           компании и позволяют
-          выделиться на фоне конкурентов</p>
-        <h1 class="header__text-two">Привет, я Саша — фронтенд разарботчик и дизайнер сайтов</h1>
+          выделиться на фоне конкурентов.</p>
+        <h1 class="header__text-two">Привет, я Кот — фронтенд разарботчик</h1>
       </div>
     </div>
+
+    <div class="burger js-burger">
+      <div class="burger__contant js-burger__content">
+
+        <div class="header__box-logo">
+          <p class="header__logo-text">Kotov</p>
+        </div>
+
+        <nav>
+          <ul class="burger_nav-list">
+            <li class="burger__nav-item"><a href="#project">портфолио</a></li>
+            <li class="burger__nav-item"><a href="#compitishen">компетенции</a></li>
+            <li class="burger__nav-item"><a href="#servise">услуги</a></li>
+            <li class="burger__nav-item"><a href="#contact">контакты</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
   </header>
 
   <main class="main">
@@ -51,12 +79,12 @@
 
         <ul class="project-contant">
           <li class="project-contant-item">
-            <a class="project-link" href="#">
+            <a class="project-link" target="_blank" href="https://kyuubi-yhp.github.io/metrika-project-2.0/">
               <div class="project-text-box">
                 <h3 class="project-text-one">Realhome</h3>
                 <p class="project-text-two">дизайн,верстка, настройка</p>
               </div>
-              <img class="project-contant-img" src="img/main_1-img/Rectangle6.jpg" alt="picture">
+              <img class="project-contant-img" src="img/main_1-img/first-site.png" alt="picture">
             </a>
           </li>
 
@@ -191,6 +219,9 @@
       </div>
     </footer>
   </main>
+
+
+  <script src="scripts/burger.js"></script>
 </body>
 
 </html>
