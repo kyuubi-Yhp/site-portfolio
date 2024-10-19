@@ -8,7 +8,6 @@
   font-size: 35px;
   font-weight: 400;
   line-height: 45.5px;
-  letter-spacing: -0.03em;
   text-align: left;
 }
 
@@ -42,8 +41,6 @@
   font-size: 55px;
   font-weight: 400;
   line-height: 71.5px;
-  letter-spacing: -0.03em;
-  text-align: left;
 }
 
 .tasks-text-two {
@@ -51,6 +48,4 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 28.6px;
-  letter-spacing: -0.03em;
-  text-align: left;
 }
