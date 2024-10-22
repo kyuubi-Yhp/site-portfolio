@@ -58,12 +58,31 @@
     line-height: 36.8px;
   }
 
+  .tasks-contant-box {
+    height: 100%;
+  }
+
   .tasks-img-box {
     height: 175px;
   }
 }
 
 @media (max-width: 767px) {
+
+  .tasks-contant-box {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .tasks-text-one {
+    width: 100%;
+  }
+
+  .tasks-text-two {
+    width: 100%;
+  }
+
 
   .tasks-img-box {
     height: 225px;
