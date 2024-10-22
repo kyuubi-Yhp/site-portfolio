@@ -14,7 +14,7 @@
 }
 
 .tasks-img-box {
-  height: 174px;
+  height: 200px;
 }
 
 .tasks-img {
@@ -26,6 +26,9 @@
 }
 
 .tasks-contant-box {
+  display: flex;
+  flex-wrap: nowrap;
+
   padding: 40px 40px 40px 40px;
   width: 100%;
   height: 283px;
@@ -34,14 +37,35 @@
 }
 
 .tasks-text-one {
+  width: 50%;
   margin-bottom: 15px;
-  color: rgb(23, 202, 23);
+  color: rgb(252, 39, 200);
   font-size: 55px;
   line-height: 71.5px;
 }
 
 .tasks-text-two {
-  width: 749px;
+  width: 50%;
   font-size: 22px;
   line-height: 28.6px;
+}
+
+
+@media (max-width: 1199px) {
+
+  .tasks-title {
+    font-size: 28.3px;
+    line-height: 36.8px;
+  }
+
+  .tasks-img-box {
+    height: 175px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .tasks-img-box {
+    height: 225px;
+  }
 }

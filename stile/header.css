@@ -259,8 +259,6 @@
     background-image: url(../img/burger-icon/burger-btn-close.png);
   } */
 
-  .burger-btn_open {}
-
   .header__text-info {
     flex-wrap: wrap;
   }
