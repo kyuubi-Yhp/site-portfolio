@@ -70,6 +70,10 @@
 
 @media (max-width: 767px) {
 
+  .skills {
+    margin-bottom: 100px;
+  }
+
   .skills__flexbox {
     flex-direction: column;
   }

@@ -122,6 +122,11 @@
 
 @media (max-width: 767px) {
 
+  .project {
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+
   .project-title {
     font-size: 30px;
     line-height: 39px;

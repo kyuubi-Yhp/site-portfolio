@@ -208,7 +208,8 @@
               <picture>
                 <source media="(max-width: 767px)" srcset="img/main_3-img/adaptive-mobile.jpg">
                 <img class="tasks-img" src="img/main_3-img/adaptive.jpg" alt="rfrf">
-              </picture>            </div>
+              </picture>
+            </div>
             <div class="tasks-contant-box">
               <h3 class="tasks-text-one">Разработка мобильного интерфейса</h3>
               <p class="tasks-text-two">Это процесс создания интерактивных элементов на странице с помощью JavaScript.
@@ -220,8 +221,8 @@
       </div>
     </section>
 
-    <!-- <section id="contact" class="contacts">
-      <div class="container">
+    <section id="contact" class="contacts">
+      <!-- <div class="container">
         <h2 class="contacts-title">для связи:</h2>
         <ul>
           <li class="contacts-list-link">
@@ -230,19 +231,45 @@
             <a class="contacts-link" href="#">mail</a>
           </li>
         </ul>
+      </div> -->
+
+      <div class="container">
+        <div class="contacts__flex">
+          <form class="contacts__form">
+            <h2 class="contacts__title">Для связи со мной заполните простую форму</h2>
+            <input class="contacts__input" placeholder="Имя Фамилия" name="name" type="text">
+            <input class="contacts__input" placeholder="example@mail.com" name="email" type="text">
+            <button type="submit" class="contacts__btn">Отправить</button>
+          </form>
+        </div>
       </div>
     </section>
 
     <footer class="footer">
       <div class="container">
-        <p class="footer__text-one">Портфолио фротнтенд-разработчика Саши Орлова</p>
-        <p class="footer__text-two">Все права защищены. 2023</p>
+
+        <ul class="footer__flex">
+          <li class="footer__item">
+            <p>Портфолио фротнтенд-разработчика Кота</p>
+          </li>
+          <li class="footer__item footer__item-right">
+            <a class="contacts-link" href="#">instagram</a>
+            <a class="contacts-link" href="#">telegram</a>
+            <a class="contacts-link" href="#">mail</a>
+          </li>
+          <li class="footer__item footer__item-opacity">
+            <p>Все права защищены. 2023</p>
+          </li>
+          <li class="footer__item footer__item-right footer__item-opacity">
+            <p>политика обработки данных</p>
+          </li>
+        </ul>
       </div>
     </footer>
-  </main> -->
+  </main>
 
 
-    <script src="scripts/burger.js"></script>
+  <script src="scripts/burger.js"></script>
 </body>
 
 </html>
